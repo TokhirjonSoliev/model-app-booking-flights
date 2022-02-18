@@ -1,4 +1,4 @@
-package uz.train.modelappbookingflights.createDto;
+package uz.train.modelappbookingflights.Dto.createDto;
 
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;

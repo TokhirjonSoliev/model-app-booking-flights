@@ -1,4 +1,4 @@
-package uz.train.modelappbookingflights.createDto;
+package uz.train.modelappbookingflights.Dto;
 
 
 import com.sun.istack.NotNull;
@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class StationsCreateDto {
+public class SeatDto {
     @NotNull
-    private String cityId;
+    private Integer seatNumber;
     @NotNull
-    private String name;
+    private double seatPrice;
     @NotNull
-    private String details;
+    private boolean seatStatus;
 
 }

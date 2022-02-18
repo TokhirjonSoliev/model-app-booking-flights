@@ -1,4 +1,4 @@
-package uz.train.modelappbookingflights.createDto;
+package uz.train.modelappbookingflights.Dto.createDto;
 
 
 import com.sun.istack.NotNull;
@@ -6,19 +6,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class PaymentCreateDto {
+public class TrainCreateDto {
     @NotNull
     private String name;
     @NotNull
-    private String cardNumber;
+    private String fromCityId;
     @NotNull
-    private String expiryDate;
+    private String toCityId;
     @NotNull
-    private LocalDate issuedDate;
+    private String trainNumber;
+    @NotNull
+    private String includePlaces;
 
 }
