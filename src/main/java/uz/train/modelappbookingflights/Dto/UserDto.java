@@ -1,4 +1,4 @@
-package uz.train.modelappbookingflights.Dto.createDto;
+package uz.train.modelappbookingflights.Dto;
 
 
 import com.sun.istack.NotNull;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class UserCreateDto {
+public class UserDto {
     @NotNull
     private String phoneNumber;
     @NotNull
